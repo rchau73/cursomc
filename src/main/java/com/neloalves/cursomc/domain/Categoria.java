@@ -8,6 +8,10 @@ import javax.persistence.GenerationType;
 
 @Entity
 public class Categoria implements Serializable {
+	public Categoria() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public Categoria(Integer id, String nome) {
 		super();
 		Id = id;
